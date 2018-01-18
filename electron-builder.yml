@@ -5,7 +5,6 @@ productName: Frodo Scraping Server
 asar: true
 
 directories:
-  buildResources: dist-assets/
   output: dist/
 
 extends: null
@@ -17,10 +16,9 @@ publish:
 
 
 files:
-  - package.json
-  - index.js
-  - build/
+  - app/**/*
   - node_modules/**/*
+  - package.json
 
 dmg:
   contents:

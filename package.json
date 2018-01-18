@@ -8,10 +8,6 @@
   "homepage": "http://example.com",
   "license": "MIT",
   "main": "app/app.js",
-  "build": {
-    "appId": "com.example.electron-boilerplate-sqlite",
-    "files": ["app/**/*", "node_modules/**/*", "package.json"]
-  },
   "scripts": {
     "postinstall": "install-app-deps",
     "start": "electron .",
@@ -24,6 +20,6 @@
   },
   "devDependencies": {
     "electron": "^1.4.10",
-    "electron-builder": "^10.8.1"
+    "electron-builder": "^19.54.0"
   }
 }
